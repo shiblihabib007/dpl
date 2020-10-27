@@ -1,0 +1,28 @@
+.company-name{
+	margin-bottom:0;
+	padding-bottom:0;
+	
+}
+.user-status{
+	color: #ff5733;
+	margin-top:10px;
+	text-align:center;
+}
+.user-status span{
+	color:#000000;
+	
+}
+.new_tab{
+target-name:new;
+target-new:tab;
+}
+.body_div{
+	margin:0 auto;
+	
+}
+.heading-color{
+	color: #A44E4E;
+}
+.edit_style a{
+	color:red;
+}

@@ -1,0 +1,15 @@
+.company-name{
+	margin-bottom:0;
+	padding-bottom:0;
+	
+}
+.user-status{
+	color: #ff5733;
+	margin-top:0;
+	padding-top:0;
+	text-align:center;
+}
+.user-status span{
+	color:#000000;
+	
+}

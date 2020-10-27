@@ -1,0 +1,124 @@
+*{
+margin:0;
+padding:0;
+border:0;
+}
+.branding{
+	text-align:center;
+	color:#2980b9;
+}
+
+.clr{ clear:both}
+/* company name heading */
+.company_header{ text-align:center; font-size:30px; font-weight:bold; color:#003333; padding:5px 0;}
+.input_style_class{ background:#CCC; color:#333333; font-size:15px;  font-weight:bold;}
+.import_file_to_add_acc{ width:500px; margin:0 auto;}
+
+@media only screen and (max-width: 828px) {
+.input_style_class{ width:120px}
+}
+@media only screen and (max-width: 405px) {
+.company_header{ font-size:22px;}
+}
+@media only screen and (max-width: 357px) {
+.company_header{ font-size:18px;}
+}
+/* Navigation End */
+
+
+/* Navigation Start */
+.dropdown-submenu {
+    position:relative;
+}
+.dropdown-submenu>.dropdown-menu {
+    top:0;
+    left:100%;
+    margin-top:-6px;
+    margin-left:-1px;
+    -webkit-border-radius:0 6px 6px 6px;
+    -moz-border-radius:0 6px 6px 6px;
+    border-radius:0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+    display:block;
+}
+.dropdown-submenu>a:after {
+    display:block;
+    content:" ";
+    float:right;
+    width:0;
+    height:0;
+    border-color:transparent;
+    border-style:solid;
+    border-width:5px 0 5px 5px;
+    border-left-color:#cccccc;
+    margin-top:5px;
+    margin-right:-10px;
+}
+.dropdown-submenu:hover>a:after {
+    border-left-color:#ffffff;
+}
+.dropdown-submenu.pull-left {
+    float:none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left:-100%;
+    margin-left:10px;
+    -webkit-border-radius:6px 0 6px 6px;
+    -moz-border-radius:6px 0 6px 6px;
+    border-radius:6px 0 6px 6px;
+}
+
+/* Navigation End */
+/* page title start*/
+.title_page{
+padding-top:102px;
+text-align:center;
+color:#003333;
+font-size:15px;
+font-weight:bold;
+}
+.client_table{ text-align:center;}
+.client_table th{ text-align:center;}
+.css-serial{
+	counter-reset: serial-number;  /* Set the serial number counter to 0 */
+	}
+.css-serial td:first-child:before {
+  counter-increment: serial-number;  /* Increment the serial number counter */
+  content: counter(serial-number);  /* Display the counter */
+}
+@media only screen and (max-width: 1254px) {
+.title_page{padding-top:112px; 
+}
+@media only screen and (max-width: 1180px) {
+.title_page{padding-top:112px; 
+}
+@media only screen and (max-width: 981px) {
+.title_page{padding-top:162px; 
+}
+@media only screen and (max-width: 907px) {
+.title_page{padding-top:162px; 
+}
+@media only screen and (max-width: 884px) {
+.title_page{padding-top:212px; 
+}
+@media only screen and (max-width: 811px) {
+.title_page{padding-top:212px; 
+}
+@media only screen and (max-width: 767px) {
+.title_page{padding-top:65px; 
+}
+@media only screen and (max-width: 754px) {
+.title_page{padding-top:42px; 
+}
+@media only screen and (max-width: 419px) {
+.title_page{padding-top:22px; 
+}
+@media only screen and (max-width: 405px) {
+.title_page{padding-top:12px; 
+}
+@media only screen and (max-width: 357px) {
+.title_page{padding-top:6px; 
+}
+/* page title start*/
+/*client balance table start*/
